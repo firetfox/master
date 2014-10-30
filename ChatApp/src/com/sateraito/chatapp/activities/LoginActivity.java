@@ -1,21 +1,19 @@
 package com.sateraito.chatapp.activities;
 
-import com.sateraito.chatapp.R;
-import com.sateraito.chatapp.ultilities.Constant;
-import com.sateraito.chatapp.ultilities.Preference;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
-import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.plus.Plus;
-
 import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
+import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.plus.Plus;
+import com.sateraito.chatapp.R;
 
 public class LoginActivity extends BaseActivity implements ConnectionCallbacks,
 		OnConnectionFailedListener {
@@ -24,7 +22,7 @@ public class LoginActivity extends BaseActivity implements ConnectionCallbacks,
 
 	/* Client used to interact with Google APIs. */
 	private GoogleApiClient mGoogleApiClient;
-
+//dsdasd
 	/*
 	 * A flag indicating that a PendingIntent is in progress and prevents us
 	 * from starting further intents.
