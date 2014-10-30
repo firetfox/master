@@ -22,7 +22,6 @@ public class LoginActivity extends BaseActivity implements ConnectionCallbacks,
 
 	/* Client used to interact with Google APIs. */
 	private GoogleApiClient mGoogleApiClient;
-//dsdasd
 	/*
 	 * A flag indicating that a PendingIntent is in progress and prevents us
 	 * from starting further intents.
