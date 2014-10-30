@@ -3,7 +3,7 @@ package com.sateraito.chatapp.activities;
 import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
 import android.os.Bundle;
-import android.view.View;
+import android.view.View;dfsdf
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
