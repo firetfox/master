@@ -13,7 +13,7 @@ import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListe
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.plus.Plus;
-import com.sateraito.chatapp.R;
+import com.sateraito.chatapp.R;//ASas
 
 public class LoginActivity extends BaseActivity implements ConnectionCallbacks,
 		OnConnectionFailedListener {
