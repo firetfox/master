@@ -1,4 +1,4 @@
-package com.sateraito.chatapp.activities;123
+package com.sateraito.chatapp.activities;
 
 import android.content.Intent;
 import android.content.IntentSender.SendIntentException;
